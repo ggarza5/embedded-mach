@@ -4,15 +4,15 @@ export default function Home() {
   return (
     <div className="grid grid-rows-[20px_auto_auto_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-8 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <h1 className="text-2xl font-bold">Mach.Exchange Testnet Widget</h1>
+        <h1 className="text-2xl font-bold">Mach.Exchange Cross-Chain Swap Widget</h1>
         <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2 tracking-[-.01em]">
-            This is a Mach.Exchange testnet widget example in{' '}
+            Experience seamless cross-chain swaps between Monad and MegaEth testnets using{' '}
             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              app/page.tsx
+              Mach.Exchange
             </code>
           </li>
-          <li className="tracking-[-.01em]">Try swapping tokens on Optimism and Polygon testnets!</li>
+          <li className="tracking-[-.01em]">Deploy your own widget in minutes with one click!</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">

@@ -1,4 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mach.Exchange Widget Demo
+
+This is a demo project showcasing how to embed the [Mach.Exchange](https://mach.exchange) cross-chain swap widget in a Next.js application. The widget allows users to perform seamless cross-chain swaps.
+
+## Features
+
+- 🔄 Cross-chain swaps
+- 🎨 Customizable widget theme
+- 📱 Responsive design
+- 🚀 One-click deployment
+
+## Quick Deploy
+
+Deploy your own widget demo with Vercel:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fggarza5%2Fembedded-mach)
 
 ## Getting Started
 
@@ -10,27 +25,29 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the widget in action.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Widget Configuration
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The widget is embedded using an iframe with the following configuration options:
+
+- `sellChain`: The source chain ID (10143 for Monad Testnet)
+- `buyChain`: The destination chain ID (6342 for MegaEth Testnet)
+- `showBranding`: Display Mach.Exchange branding
+- `hideAIInput`: Hide AI input field
+- `themePrimary`: Primary color theme
+- `themeBackground`: Background color theme
+
+You can customize these options by modifying the iframe URL parameters in `app/page.tsx`.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about Mach.Exchange and the widget integration:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Mach.Exchange Documentation](https://docs.mach.exchange)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Support
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+For support and feedback, please visit our [Discord community](https://discord.gg/mach) or open an issue on GitHub.
