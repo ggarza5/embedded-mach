@@ -2,12 +2,12 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_auto_auto_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-8 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="grid grid-rows-[20px_auto_auto_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-8 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-black text-white">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <h1 className="text-2xl font-bold">Mach.Exchange Cross-Chain Swap Widget</h1>
         <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2 tracking-[-.01em]">
-            Experience seamless cross-chain swaps between Monad and MegaEth testnets using{' '}
+            Experience seamless cross-chain swaps using{' '}
             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
               Mach.Exchange
             </code>
@@ -29,7 +29,7 @@ export default function Home() {
       </main>
       <iframe
         className="w-full max-w-[500px] h-[600px] border-0 rounded-lg shadow-lg row-start-3"
-        src="https://app.mach.exchange/embed?chains=1,10,143&showBranding=true&hideAIInput=true&logoUrl=https%3A%2F%2Fpicsum.photos%2F300%2F200&themePrimary=%2300ff00&themeBackground=%23844666"
+        src="https://app.mach.exchange/embed?chains=1,10,143&showBranding=true&hideAIInput=true&logoUrl=https%3A%2F%2Fpicsum.photos%2F300%2F200"
       />
     </div>
   );
