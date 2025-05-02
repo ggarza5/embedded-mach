@@ -29,7 +29,7 @@ export default function Home() {
       </main>
       <iframe
         className="w-full max-w-[500px] h-[600px] border-0 rounded-lg shadow-lg row-start-3"
-        src="https://testnet-dev.mach.exchange/embed?sellChain=10143&buyChain=6342&showBranding=true&hideAIInput=true&logoUrl=https%3A%2F%2Fpicsum.photos%2F300%2F200&themePrimary=%2300ff00&themeBackground=%23844666"
+        src="https://app.mach.exchange/embed?chains=1,10,143&showBranding=true&hideAIInput=true&logoUrl=https%3A%2F%2Fpicsum.photos%2F300%2F200&themePrimary=%2300ff00&themeBackground=%23844666"
       />
     </div>
   );
